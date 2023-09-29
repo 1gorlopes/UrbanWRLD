@@ -1,0 +1,108 @@
+/* Estilização da página de produtos */
+/*Estilização do HEADER da página*/
+header{
+    background-color: #000000;
+}
+/*Estilização do LOGOTIPO*/
+.logo{
+    width: 30%;
+}
+/*Estilização do MENU*/
+nav{
+    right: 0;
+    position: absolute;
+    top: 100px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
+.logo_caixa{
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+/*Estilização do banner*/
+.banner {
+    width: 100%;
+}
+.produtos {
+    background-color: #000000;
+    padding: 20px;
+}
+
+.opcoes-produtos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.produto-link {
+    text-decoration: none;
+    color: #ffffff;
+    transition: transform 0.2s;
+    margin: 10px;
+}
+
+.produto-link:hover {
+    transform: scale(1.05);
+}
+
+.produto {
+    text-align: center;
+}
+
+.produto img {
+    max-width: 50%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+.produto h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.titulo-jaquetas{
+    text-size-adjust: 50px;
+}
+
+/*Títulos - Padrão*/
+.titulo-padrao{
+    margin: 0;
+    padding-top: 5%;
+    text-align: center;
+    font-size: 40px;
+}
+.banner {
+    width: 100%;
+    
+}
+
+/*Estilização da sessão Nosso Estabelecimento (mapa)*/
+.mapa {
+    background: linear-gradient(#ffffff, #2e2e2d);
+}
+.mapa p{
+    text-align: center;
+    
+}
+.mapa iframe{
+    display: block;
+    margin: auto;
+
+}
